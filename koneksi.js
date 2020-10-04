@@ -1,7 +1,7 @@
 var mysql = require ('mysql');
 
 //buat koneksi database
-const conn = mysql.CreateConnection({
+const conn = mysql.createConnection({
 	host:'localhost',
 	user:'root',
 	password:'',
