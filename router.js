@@ -13,5 +13,8 @@ module.exports = function(app) {
 		.get(jsonku.tampilberdasarkanid);	
 
 	app.route('/tambahMahasiswa')
-		.post(jsonku.tambahMahasiswa);		
+		.post(jsonku.tambahMahasiswa);
+
+	app.route('/ubah')
+		.put(jsonku.ubahMahasiswa);				
 }
